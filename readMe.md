@@ -1,0 +1,5 @@
+#homework algorithm problem
+
+##The four adjacent digits in the 1000-digit number below that have the greatest product are 9 × 9 × 8 × 9 = 5832. Find the thirteen adjacent digits in the 1000-digit number that have the greatest product. What is the value of this product? I have set up the variable “digits” below for you.
+
+###Needed global variables declared.  Sliced the string using a loop to move through 13 at a time.  Split the sliced string and then converted it to numbers as I updated the global variable by multiplying each element in the split, sliced array as a converted number by the global variable testSum.  Conditional determining if testSum is larger than the holder variable largestSum. if so, largestSum is updated and the string that is sliced is pushed to the string holder global variable.
